@@ -1,0 +1,244 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #2472b4;
+  font-family: "微软雅黑";
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+}
+.center {
+  width: 310px;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  top: 15%;
+}
+.top {
+  margin: 20px 0;
+}
+.bottom {
+  margin-bottom: 40px;
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+}
+#particles-js h2.tit {
+  font-size: 48px;
+  color: #fff;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+#particles-js h2.tit span {
+  font-size: 25px;
+  margin-left: 10px;
+}
+#particles-js .box {
+  background: #fff;
+  border-radius: 3px;
+}
+#particles-js .box .b1 {
+  padding: 50px 20px 0px;
+  margin: 30px 0;
+}
+#particles-js .box .b1 .fillbox {
+  margin-bottom: 10px;
+}
+#particles-js .box .b1 .fillbox .lt {
+  width: 80px;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #666;
+  float: left;
+  text-align: right;
+  line-height: 25px;
+}
+#particles-js .box .b1 .fillbox .cen {
+  text-align: center;
+}
+#particles-js .box .b1 .fillbox .rt {
+  float: left;
+  width: 170px;
+}
+#particles-js .box .b1 .fillbox .rt .textbox {
+  padding: 5px 5px;
+  font-size: 12px;
+  color: #666;
+  width: 150px;
+  border: 1px solid #ccc;
+}
+#particles-js .box .b1 .fillbox .rt .textbox1 {
+  float: left;
+  padding: 5px 5px;
+  font-size: 12px;
+  color: #666;
+  width: 40px;
+  border: 1px solid #ccc;
+}
+#particles-js .box .b1 .fillbox .rt .pic {
+  float: left;
+  margin-left: 5px;
+}
+#particles-js .box .b1 .fillbox .rt .pic img {
+  width: 50px;
+  height: 28px;
+}
+#particles-js .box .b1 .fillbox .rt a {
+  float: left;
+  margin-left: 5px;
+  font-size: 14px;
+  line-height: 25px;
+}
+#particles-js .box .b1 .fillbox .rember {
+  float: left;
+  margin-left: 20px;
+}
+#particles-js .box .b1 .fillbox .rember .checkbox {
+  margin-top: 5px;
+  float: left;
+}
+#particles-js .box .b1 .fillbox .rember span {
+  margin-top: 5px;
+  float: left;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #666;
+}
+#particles-js .box .b1 .fillbox .forget {
+  float: right;
+  margin-right: 20px;
+}
+#particles-js .box .b1 .fillbox .forget a {
+  color: #2472b4;
+  font-size: 12px;
+}
+#particles-js .box .b1 .fillbox .forget a:hover {
+  color: #f60;
+}
+#particles-js .box .b1 .fillbox .loginbtn {
+  padding: 5px 100px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  box-shadow: #ccc 2px 2px 5px;
+  background: #fff;
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 3px;
+  transition: ease-in 0.3s;
+  -moz-transition: ease-in 0.3s;
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+}
+#particles-js .box .b1 .fillbox .loginbtn:hover {
+  background: #2472b4;
+  border-color: #2472b4;
+  color: #fff;
+}
+#particles-js .box .b1 .pic {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#particles-js .box .b1 .cn {
+  font-size: 14px;
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+#particles-js .box .b1 .mailbtn {
+  padding: 5px 80px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  box-shadow: #ccc 2px 2px 5px;
+  background: #fff;
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 3px;
+  transition: ease-in 0.3s;
+  -moz-transition: ease-in 0.3s;
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+}
+#particles-js .box .b1 .mailbtn:hover {
+  background: #2472b4;
+  border-color: #2472b4;
+  color: #fff;
+}
+#particles-js .box .b2 {
+  background: #1762a2;
+  padding: 20px;
+}
+#particles-js .box .b2 .noaccount {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+#particles-js .box .b2 .noaccount a {
+  margin-left: 10px;
+  color: #fefb00;
+}
+#particles-js .box .b2 .noaccount a:hover {
+  color: #f60;
+}
+#particles-js .box .b2 .otherway {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#particles-js .box .b2 .otherway span {
+  float: left;
+}
+#particles-js .box .b2 .otherway a {
+  display: inline-block;
+  float: left;
+  width: 22px;
+  height: 18px;
+  margin-right: 10px;
+}
+#particles-js .box .b2 .otherway a.qq {
+  background: url(../images/qq1-icon.png) no-repeat;
+}
+#particles-js .box .b2 .otherway a.qq:hover {
+  background: url(../images/qq1-icon-hover.png) no-repeat;
+}
+#particles-js .box .b2 .otherway a.weixin {
+  background: url(../images/weixin-icon.png) no-repeat;
+}
+#particles-js .box .b2 .otherway a.weixin:hover {
+  background: url(../images/weixin-icon-hover.png) no-repeat;
+}
+#particles-js .box .b2 .otherway a.weibo {
+  background: url(../images/weibo-icon.png) no-repeat;
+}
+#particles-js .box .b2 .otherway a.weibo:hover {
+  background: url(../images/weibo-icon-hover.png) no-repeat;
+}
+#particles-js .box .b2 .text {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+#particles-js .box .b2 .text a {
+  color: #fff606;
+}
+#particles-js .box .b2 .text a:hover {
+  color: #f60;
+}
+#particles-js .box .b2 .con p {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+#particles-js .box .b2 .con p a {
+  color: #fff606;
+}
+#particles-js .box .b2 .con p a:hover {
+  color: #f60;
+}

@@ -1,0 +1,32 @@
+html { color: #323232;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, textarea, p, blockquote, th, td { margin: 0; padding: 0;}
+body { font-family: "微软雅黑"; }
+img { border: none; }
+em, strong { font-style: normal; font-weight: normal; }
+li { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+h1 { font-size: 18px; }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+q:before, q:after { content: ''; }
+/
+button, input, select, textarea { font-size: 100%; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+address, cite, dfn, em, var { font-style: normal; }
+a { text-decoration: none; color: #666; }
+a:hover { text-decoration: none; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { *zoom: 1; }
+hr { border: 1px solid #ccc; }
+button { border: none; }
+option { padding-left: 5px; *padding: 0; }
+li { list-style: none; }
+cite, code, caption, em, i { font-style: normal; font-weight: normal; }
+q:before, q:after { content: ''; }
+input[type="radio"], input[type="checkbox"] { margin-right: 8px; }
+;
+
+/*a:visited{color:#800080;}*/
+a:hover { text-decoration: underline; }
+a:active, a:focus { outline: none; }
